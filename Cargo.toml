@@ -3,9 +3,11 @@ name = "gosh-rust"
 version = "0.1.0"
 authors = ["Sean Hellum <seanhellum45@gmail.com>", "Teddy Clarke"]
 edition = "2018"
-
+include = ["src/**/*","history.txt"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 rustyline = "5.0.4"
+env_logger = "0.7.1"
 colored = "1.9"
+rustyline-derive = "0.2.0"
